@@ -67,8 +67,21 @@ nav ul li a{
     width: 100%;
     margin-top: 20px;
 }
-
-
+/* header css end */
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.team-img img{
+    width: 100%;
+}
+.team-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 60px 300px 60px 300px;
+}
 /* media query for mobile friendly */
 /* mobile device */
 @media screen and (max-width: 576px) {
@@ -95,6 +108,21 @@ nav ul li a{
     }
     .banner img{
         width: 100%;
+    }
+    /* header css end here */
+    .team-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 60px 10px 60px 10px;
+    }
+    .team-img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .team-content{
+        margin-top: 18px;
     }
 }
 /* tablet or medium device */
