@@ -100,5 +100,16 @@ nav ul li a{
 /* tablet or medium device */
 
 @media screen and (min-width: 576px) and (max-width: 960px){
-    
+    header {
+        padding: 10px;
+    }
+    .banner-title{
+        margin-top: 12px;
+    }
+    .banner-description{
+       margin-top: 12px;
+    }
+    .btn-primary{
+        margin-top: 18px;
+    }
 }
