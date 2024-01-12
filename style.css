@@ -77,6 +77,22 @@ nav ul li a{
     }
     nav{
         flex-direction: column;
+        display: none;
+    }
+    .banner{
+        width: 350px;
+        margin-top: 100px;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-description{
+       margin-top: 12px;
+    }
+    .btn-primary{
+        padding: 15px 20px;
+        font-size: 1rem;
+        margin-top: 12px;
     }
 }
 /* tablet or medium device */
