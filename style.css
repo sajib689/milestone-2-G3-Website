@@ -180,6 +180,42 @@ nav ul li a{
     font-weight: 400;
     color: #727272;
 }
+/* client css end here */
+.sponspor-container{
+    margin: 100px 240px 50px 240px;
+}
+.sponspor-contetnt{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+.sponspor-contetnt h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: #131313;
+}
+.sponspor-contetnt p{
+    font-size: 1rem;
+    color: #727272;
+    font-weight: 400;
+    margin-top: 12px;
+}
+.sponspor-img {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    margin-top: 80px;
+}
+.sponspor-img img{
+    width: 100%;
+}
+footer p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #424242;
+    text-align: center;
+    margin: 25px 10px 20px 10px;
+}
 /* media query for mobile friendly */
 /* mobile device */
 @media screen and (max-width: 576px) {
@@ -242,6 +278,23 @@ nav ul li a{
     align-items: center;
     text-align: center;
 }
+/* client css end */
+    .sponspor-container{
+    margin: 100px 20px 50px 20px;
+    }
+    .sponspor-contetnt{
+        width: 320px;
+    }
+    .sponspor-img{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .sponspor-img img{
+        width: 153px;
+        height: 50px;
+    }
 }
 /* tablet or medium device */
 
@@ -295,4 +348,14 @@ nav ul li a{
     text-align: center;
 }
 /* end here client css */
+.sponspor-container{
+    margin: 100px 100px 50px 100px;
+    }
+    .sponspor-img img{
+        width: 150px !important;
+    }
+    .sponspor-img{
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 25px;
+    }
 }
