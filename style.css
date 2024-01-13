@@ -82,6 +82,104 @@ nav ul li a{
     align-items: center;
     margin: 60px 300px 60px 300px;
 }
+/* team css end */
+
+.experience-container{
+    margin: 100px 240px 50px 240px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.experience-img img{
+    width: 100%;
+}
+.experience-description h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #131313;
+}
+.experience-description p{
+    margin-top: 20px;
+    font-weight: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+    color: #727272;
+}
+.expericence-subheading{
+    margin-top: 25px;
+}
+.expericence-subheading p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #727272;
+}
+.experience-img {
+    position: relative;
+}
+.experience-years{
+    background-color: #FF900E;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+}
+.experience-years h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+.experience-years p{
+    font-weight: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+/* Experience area css end */
+.client-description {
+    margin: 60px 240px 60px 240px;
+    width: 500px;
+}
+.client-description h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #131313;
+}
+.client-description p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #727272;
+}
+.client-details {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 4px 60px 4px 240px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.client-content{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 30px 50px;
+}
+.client-content h3{
+    font-size: 35px;
+    font-weight: 600;
+    color: #424242;
+}
+.client-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
 /* media query for mobile friendly */
 /* mobile device */
 @media screen and (max-width: 576px) {
@@ -121,8 +219,16 @@ nav ul li a{
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
     }
-   
-   
+   .team-content{
+    margin-top: 15px;
+    margin-left: 12px;
+   }
+   /* team css end here */
+   .experience-container{
+    margin: 25px 15px 25px 15px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
 }
 /* tablet or medium device */
 
@@ -155,4 +261,11 @@ nav ul li a{
     .team-content{
         margin-left: 50px;
     }
+    /* team css end here */
+    .experience-container{
+        margin: 50px 140px 140px 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+   
 }
